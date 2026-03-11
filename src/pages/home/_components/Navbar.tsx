@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MenuIcon, XIcon, SparklesIcon } from "lucide-react";
-import { cn } from "@/lib/utils.ts";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { label: "HOME", href: "#home" },

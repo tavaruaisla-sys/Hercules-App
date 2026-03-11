@@ -38,7 +38,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-xl">
+          className="max-w-4xl mx-auto text-center">
           
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -64,7 +64,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.45 }}
-            className="text-white/75 font-sans text-base font-light leading-relaxed mb-10 max-w-sm">
+            className="text-white/75 font-sans text-base font-light leading-relaxed mb-10 max-w-lg mx-auto">
             
             Indulge in a world of relaxation and beauty. Experience our premium treatments crafted for your well-being.
           </motion.p>
